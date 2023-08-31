@@ -1,0 +1,51 @@
+.manage-event {
+  margin-top: 10%;
+}
+
+.manage-event button {
+  /* position: absolute; */
+  font-size: 14px;
+  width: 70px; /* Adjust the width to create a longer oval shape */
+  height: 35px; /* Adjust the height to create an oval shape */
+  border-radius: 15px; /* Adjust the border-radius value to create the desired oval shape */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.manage-event p {
+  margin-left: 2%;
+  padding-bottom: 0.2%;
+}
+
+.title-input {
+  background-color: transparent; /* Set the background color to transparent */
+  border: 0.5px solid #ccc9c9; /* Remove the border */
+  border-radius: 15px;
+  outline: none; /* Remove the outline */
+  color: black; /* Set the text color to white (or any color you prefer) */
+  width: 95%; /* Set the width to 100% of the parent container */
+  /*padding: 10px; /* Add padding for better visual appearance */
+  font-size: 17px;
+  height: 40px;
+}
+
+.CHECKBOX {
+  position: absolute;
+  margin-top: 1.3%;
+  width: 17px;
+  height: 17px;
+  margin-left: 3%;
+}
+
+.THREEBUT {
+  text-align: center;
+  margin-top: 10%;
+}
+.THREEBUT2 {
+  margin-left: 5%;
+}
+.THREEBUT3 {
+  margin-left: 5%;
+}

@@ -1,0 +1,53 @@
+/* calendar.css */
+
+/* 달력의 배경색을 변경합니다. */
+.react-datepicker {
+  background-color: #f6f6f6;
+  border: none;
+}
+
+/* 선택된 날짜의 배경색을 변경합니다. */
+.react-datepicker__day--selected {
+  background-color: #f6f6f6;
+  color: #17a1fa;
+}
+
+/* 오늘 날짜의 배경색을 변경합니다. */
+.react-datepicker__day--today {
+  color: #fff;
+}
+
+.react-datepicker__current-month {
+  color: #b3b3b3;
+  border: none;
+}
+
+.react-datepicker__day {
+  border-top: none;
+}
+
+.react-datepicker__day:hover {
+  border: none;
+}
+
+/* 달력의 날짜와 월의 글씨 색을 검정색으로 변경합니다. */
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name,
+.react-datepicker__time {
+  color: #b3b3b3;
+}
+
+.react-datepicker__triangle {
+  display: 1px solid #fff;
+}
+
+/* 선택된 날짜의 글씨 색을 흰색으로 변경합니다. */
+.react-datepicker__day--selected {
+  color: #1270b0;
+}
+
+/* 오늘 날짜의 글씨 색을 빨간색으로 변경합니다. */
+.react-datepicker__day--today {
+  color: #ff0000;
+}

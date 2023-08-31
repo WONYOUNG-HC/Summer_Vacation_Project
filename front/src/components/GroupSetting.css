@@ -1,0 +1,128 @@
+/* /* .group-setting-modal {
+  width: 400px;
+  height: 230px;
+  background: #fff;
+  border: 1px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+
+  max-height: 70%;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 10px;
+  outline: none;
+  padding: 20px;
+  overflow: hidden;
+} */
+
+/* .GROUPSETTINGBOX {
+  /* position: absolute; */
+/*
+  margin-top: 5%;
+}
+
+.GROUPSETTING_BOX {
+  margin-top: 12%;
+}
+/* 
+.group_setting {
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.GROUPNAMEFORM {
+  width: 180px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.GROUPNAMEBUT {
+  margin-top: 10%;
+  width: 150px;
+  margin-bottom: 40%;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #5370ff;
+  color: white;
+}  */
+
+.group-setting {
+  max-width: 400px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.group-set {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.group-set h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input-button-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 10%;
+}
+
+.input-button-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-button-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #555;
+  /* height: 23px; */
+}
+
+.input-button-container input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.GROUPNAMEBUT {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+.GROUPNAMEBUT:hover {
+  background-color: #0056b3;
+}
+
+.GROUPLEAVE {
+  all: unset;
+  position: absolute;
+  border: none;
+  color: red; /*959595*/
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  /* text-align: right; */
+  margin-left: 60%;
+  margin-top: 37%;
+}

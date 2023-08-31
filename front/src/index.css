@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; /* 웹킷 브라우저용 */
+  -moz-osx-font-smoothing: grayscale; /* 파이어폭스용 macOS */
+  font-smoothing: antialiased; /* 그 외 브라우저용 */
+  text-rendering: optimizeLegibility; /* 높은 읽기 용이성 */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

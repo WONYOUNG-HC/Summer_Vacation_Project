@@ -1,0 +1,75 @@
+.layout {
+  font-family: Noto Sans KR;
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.GroupCalendar {
+  z-index: 0;
+}
+
+.GROUPCALENDAR {
+  z-index: 0;
+}
+
+.LOG_OUT {
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  /* z-index: 8000; */
+  bottom: 5%;
+  border: none;
+  margin-left: 2%;
+  cursor: pointer;
+}
+
+.LEFTBOX {
+  z-index: 9999;
+}
+
+/* 모달 스타일 */
+
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 700px;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  outline: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 반투명한 배경 설정 */
+  z-index: 9998; /* 모달 뒤 배경의 z-index 설정 */
+}
+
+.PROFILE_IMG {
+  position: absolute;
+  z-index: 9000;
+  width: 56px;
+  height: 56px;
+  right: 14.5%;
+  top: 2.5%;
+}
+
+.ReactModal__Overlay {
+  z-index: 9999;
+}
+
+.invite-modal {
+  z-index: 9999;
+  outline: none;
+}

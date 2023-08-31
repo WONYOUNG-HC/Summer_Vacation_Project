@@ -1,0 +1,58 @@
+.group-create {
+  max-width: 400px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.create-comment {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.create-comment h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input-button-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 10%;
+}
+
+.input-button-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-button-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #555;
+  /* height: 23px; */
+}
+
+.input-button-container input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.group-create button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+.group-create button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,52 @@
+.group-calendar {
+  flex: 1;
+  /* position: absolute; */
+  height: 880px;
+  padding: 23%;
+  margin-top: -15%;
+  z-index: 0;
+
+  overflow: auto;
+}
+
+.group-calendar .fc-day {
+  text-align: center;
+}
+
+.fc-day-today {
+  background: rgba(194, 215, 255, 0.3) !important;
+}
+
+.group-calendar .fc-day-number {
+  text-align: center !important;
+}
+
+.fc .fc-button .fc-icon {
+  color: rgba(209, 209, 209, 0.8);
+  /* font-size: 50px; */
+}
+
+.fc-bg-event {
+  background-color: skyblue !important;
+}
+
+.fc .fc-button-primary {
+  border: none;
+
+  background-color: transparent;
+}
+
+.fc-icon fc-icon-chevron-right {
+  right: 15%;
+}
+
+.fc-header-toolbar .fc-next-button:hover,
+.fc-header-toolbar .fc-prev-button:hover,
+.fc-header-toolbar .fc-prev-button:active,
+.fc-header-toolbar .fc-next-button:active {
+  background-color: #e7e7e7;
+}
+
+.fc-event {
+  border-radius: 15px !important;
+}

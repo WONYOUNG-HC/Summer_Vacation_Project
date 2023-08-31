@@ -1,0 +1,116 @@
+.C_INFO {
+  border-bottom: 2px solid #dad8d8;
+  position: absolute;
+  width: 1030px;
+  height: 100px;
+  margin-left: 23%;
+  margin-top: 0.6%;
+}
+
+.C_CONTENT {
+  border-left: 4px solid #9b64c5;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.GROUPINVITE {
+  position: absolute;
+  right: 24%;
+  margin-top: 3.5%;
+  /* border: 1px solid black; */
+
+  z-index: 9999;
+}
+
+.GROUPMAMBER {
+  position: absolute;
+  right: 30%;
+  margin-top: 3.1%;
+  z-index: 9999;
+}
+
+.USERLISTIMG {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  /* border: 1px solid rgb(192, 192, 192); */
+  /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+  border-radius: 50%;
+}
+
+.PLUSBUT {
+  width: 49px;
+  height: 32px;
+  border-radius: 42px;
+  /* border: 1px solid #4461f2; */
+  color: white;
+  background-color: #8094fa;
+  text-align: center;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+/* 그룹원 일정 보기 */
+
+.modal-1 {
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(255, 255, 255, 0.8);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+  overflow: scroll; /* 스크롤바를 나타나게 함 */
+
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* 투명한 배경색으로 설정하여 숨김 */
+  }
+}
+
+.SHOWGROUPLIST_T {
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.MemberBox {
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  height: 90px;
+  width: 350px;
+  margin-left: 6%;
+}
+
+.MemberBox img {
+  /* position: absolute; */
+  margin: 3%;
+  width: 70px;
+  height: 70px;
+}
+
+.MemberBox p {
+  /* position: absolute; */
+  font-size: 25px;
+  margin-left: 45%;
+  margin-top: -20%;
+}

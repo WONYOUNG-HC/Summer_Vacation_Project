@@ -1,0 +1,46 @@
+.DEFAULT_IMGBOX {
+  height: 56px;
+  width: 56px;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.default-image {
+  width: 55px;
+  height: 55px;
+  margin-top: 1.5%;
+  margin-left: 3%;
+}
+
+.received-image {
+  margin-top: 1.5%;
+  margin-left: 3%;
+  width: 55px;
+  height: 55px;
+}
+
+.USERNAME {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 34%;
+  margin-top: -10%;
+}
+
+.SETTING {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  right: 45px;
+  top: 44px;
+  cursor: pointer;
+}
+
+.ALERT {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 80px;
+  top: 43px;
+  cursor: pointer;
+}

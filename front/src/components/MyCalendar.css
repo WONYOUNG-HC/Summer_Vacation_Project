@@ -1,0 +1,64 @@
+.my-calendar {
+  flex: 1;
+  /* position: absolute; */
+  height: 880px;
+  padding: 23%;
+  margin-top: -15%;
+  z-index: 0;
+
+  overflow: auto;
+}
+.fc-dayGridMonth-view .fc-day-today {
+  background-color: transparent !important;
+}
+
+.fc {
+  /* border: 1px solid #000; */
+  width: 1040px;
+  height: 750px;
+}
+.my-calendar .fc-day {
+  text-align: center;
+}
+
+.my-calendar .fc-day-number {
+  text-align: left !important;
+  font-size: 18px;
+}
+
+.fc .fc-highlight {
+  background-color: none;
+}
+
+.fc .fc-scrollgrid {
+  background-color: transparent;
+  background: none;
+}
+
+.fc-event {
+  /* background-color: rgb(134, 134, 134, 0.8); */
+  background-color: rgba(135, 206, 235, 0.8);
+  border: none;
+  color: white;
+  justify-content: center;
+  border-radius: 15px;
+  /* height: 24px; */
+}
+
+.fc-daygrid-day-events :hover {
+  /* all: unset; */
+  color: white;
+  background-color: rgba(168, 168, 168, 0.3);
+  border-radius: 15px;
+}
+
+.fc-daygrid-day-events div :hover {
+  background-color: transparent;
+}
+
+/* .fc-event-main i:hover {
+  all: unset;
+  color: white;
+  background-color: none;
+  font-style: italic;
+} */

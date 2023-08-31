@@ -1,0 +1,440 @@
+body {
+  overflow: hidden;
+  background-color: #f6f6f6;
+  font-family: Noto Sans KR;
+  transform: skew(-0.01deg);
+}
+
+.FULL {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.LEFT {
+  flex: 1.6;
+  /* border-right: 1px solid #000; */
+}
+
+.Left_Title {
+  /* display: flex; */
+  margin-top: 26%;
+  margin-left: 27%;
+}
+
+.MOGGOZI {
+  position: absolute;
+  color: #000;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.1px;
+  z-index: 9999;
+}
+
+.MOGGOZI_B {
+  color: #000;
+  font-size: 17px;
+  font-weight: 1000;
+  line-height: 0.7;
+  z-index: 9000;
+}
+
+.RIGHT {
+  flex: 1;
+  /* border-left: 1px solid #000; */
+}
+
+.BUTTON {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-top: 10%;
+  /* width: 10px; */
+  color: #4461f2;
+  width: 730px;
+  height: inherit;
+}
+
+.Right,
+.Left {
+  width: 80px;
+  text-align: center;
+}
+
+.LOGIN,
+.MEMBERSHIP {
+  cursor: pointer;
+  /* padding: 10px; */
+  font-size: 18px;
+  font-weight: bold;
+  /* margin: 0 10px; */
+}
+
+/* 선택된 버튼 아래 언더바 스타일 */
+.LOGIN::after,
+.MEMBERSHIP::after {
+  content: "";
+  display: block;
+  width: 40%;
+  border-bottom: 2px solid #4461f2;
+  transform: scaleX(0); /* 처음에는 언더바가 안 보이도록 설정 */
+  transition: transform 0.2s ease-in-out;
+  margin: 0 auto;
+}
+
+/* 선택된 버튼 아래 언더바 스타일 - 선택된 버튼에만 보이도록 설정 */
+.LOGIN.selected::after,
+.MEMBERSHIP.selected::after {
+  transform: scaleX(1); /* 선택된 버튼에 언더바를 보이도록 설정 */
+  border-bottom: 2px solid #4461f2;
+}
+
+.MOGGOZI_BG {
+  display: flex;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  /* flex-shrink: 0; */
+  /* border: 1px solid #000; */
+
+  fill: #53d9b1;
+  left: 2%;
+  top: 10%;
+  /* opacity: 0.44999998807907104; */
+  /* filter: blur(158.5px); */
+}
+
+.MOGGOZI_B_BACK {
+  /* display: flex; */
+  position: absolute;
+  margin-top: 10%;
+}
+
+.MOGGOZI_B_WRAP {
+  /* display: flex; */
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  z-index: 8000;
+}
+
+.MOGGOZI_B_BG {
+  /* display: flex; */
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  /* border: 1px solid #000; */
+  top: -250px;
+  left: -200px;
+}
+
+/* ----------------------------------------------- */
+
+/* 여기는 로그인 창 */
+
+.LoginFormContainer {
+  display: flex;
+  margin-top: 40%;
+  justify-content: center;
+}
+
+.LOGIN_FORM {
+  display: flex;
+}
+
+.LOGIN_FORM_L,
+.PASSWORD_FORM_L {
+  width: 350px;
+  height: 40px;
+  flex-shrink: 0;
+  /* font-weight: bold; */
+  margin: 2%;
+  border-radius: 10px;
+  background: #eaf0f7;
+  border: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+input {
+  padding-left: 15px;
+}
+
+.PASSWORD_FIND {
+  color: #a7a4a4;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 77px; */
+  letter-spacing: 1.4px;
+  text-align: right;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+.LOGIN_BUTTON {
+  width: 370px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 70px;
+  margin-left: 2%;
+  border-radius: 10px;
+  background: #4461f2;
+  box-shadow: 0px 12px 21px 4px rgba(68, 97, 242, 0.15);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.LOGIN_FORM_WRAPPER {
+  position: relative;
+  top: 45%;
+  /* right: 8px; */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.X_ICON {
+  display: flex;
+  position: absolute;
+  right: 2%;
+  top: 32%;
+}
+
+.PASSWORD_FORM_WRAPPER {
+  position: relative;
+  top: 45%;
+  /* right: 8px; */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.EYES_ICON {
+  display: flex;
+  position: absolute;
+  right: 2%;
+  top: 32%;
+}
+
+.MIDIMG {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 450px;
+  height: 450px;
+  margin-top: 14%;
+  margin-left: 38%;
+}
+
+/* ----------------------------------------------- */
+
+/* 여기는 회원가입 창 */
+
+.MEMBERSHIP_BUTTON {
+  width: 370px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 60px;
+  margin-left: 0.7%;
+  border-radius: 10px;
+  background: #4461f2;
+  box-shadow: 0px 12px 21px 4px rgba(68, 97, 242, 0.15);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+}
+
+.MEMBERSHIP_FORM_R,
+.PASSWORD_FORM_R {
+  width: 350px;
+  height: 40px;
+  flex-shrink: 0;
+  /* font-weight: bold; */
+  margin: 2%;
+  border-radius: 10px;
+  background: #eaf0f7;
+  border: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.MembershipFormContainer {
+  display: flex;
+  position: absolute;
+
+  margin-top: 9.5%;
+  margin-left: 9.4%;
+}
+
+.PASSWORDSHOW {
+  display: flex;
+  justify-content: center;
+  margin-left: 22%;
+  margin-top: -2%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* 회원가입 인증 메일 모달 */
+
+.modal {
+  /* display: none; */
+  position: fixed; /* 고정 위치 */
+  z-index: 10000; /* 최상위로 표시 */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin-top: 20%;
+  margin-left: 41%;
+  padding: 20px;
+  border: none;
+  width: 15%;
+  color: #4461f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.verifyButton {
+  margin-left: 15px;
+  background: #4461f2;
+  border: none;
+  color: #fff;
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  line-height: 7px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 비밀번호 찾기 인증 메일 모달 */
+.modal_L {
+  position: fixed; /* 고정 위치 */
+  z-index: 10000; /* 최상위로 표시 */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+.modal_L2 {
+  position: fixed; /* 고정 위치 */
+  z-index: 10000; /* 최상위로 표시 */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: transparent;
+}
+
+.modal-content_L {
+  background-color: #fefefe;
+  margin-top: 20%;
+  margin-left: 42%;
+  padding: 20px;
+  border: none;
+  width: 15%;
+  height: 18%;
+  color: #4461f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content_L2 {
+  background-color: #fefefe;
+  margin-top: 20%;
+  margin-left: 42%;
+  padding: 20px;
+  border: none;
+  width: 15%;
+  height: 18%;
+  color: #4461f2;
+  border-radius: 10px;
+}
+
+.close_L {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.verifyButton_L {
+  margin-left: 15px;
+  background: #4461f2;
+  border: none;
+  color: #fff;
+  width: 50px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.close_L:hover,
+.close_L:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.VERIFYFORM {
+  /* margin-top: 5px; */
+}
+
+.VERIFYFORM_BUTTON {
+  margin-top: 10px;
+  margin-left: 15px;
+  background: #4461f2;
+  border: none;
+  color: #fff;
+  width: 50px;
+  height: 22px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.ALERT_RIGHT {
+  /* margin-left: 42%; */
+}
+
+.CHANGE_BUTTON {
+  background: #4461f2;
+  position: fixed;
+  top: 52.3%;
+  left: 53.5%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  width: 80px;
+  height: 45px;
+  cursor: pointer;
+  text-align: center;
+}
