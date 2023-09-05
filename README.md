@@ -104,3 +104,8 @@
 * 그룹 달력에서 각 그룹에 속한 그룹원들의 이름과 프로필 이미지 표시
 * 프로필 옆 메세지 버튼을 통해 그룹 초대 수락 / 거절 표시
 * 프로필 이미지 클릭 시 9가지의 이미지 선택 가능
+<br>
+
+## 개인 프로젝트 리뷰
+* https://burly-jellyfish-3bc.notion.site/Summer_Vacation_Project-9799631fb8964338b2d45c9ee4bae709?pvs=4
+
